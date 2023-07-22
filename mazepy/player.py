@@ -1,5 +1,5 @@
 # import math
-# import sys
+import sys
 
 import pygame
 
@@ -40,7 +40,14 @@ class Player:
         self.angle %= math.tau
 
     def check_wall(self, x, y):
-        return (x, y) not in self.game.map.world_map
+        if (x, y) not in self.game.map.world_map:
+            return True
+        elif self.game.map.world_map[x, y] == 9:
+            pygame.quit()
+            sys.exit()
+        else:
+            return False
+        # return (x, y) not in self.game.map.world_map
 
     def check_wall_collision(self, dx, dy):
         scale = PLAYER_SIZE_SCALE / self.game.delta_time
