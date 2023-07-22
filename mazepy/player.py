@@ -9,8 +9,10 @@ from globals import *
 class Player:
     def __init__(self, game):
         self.game = game
-        self.x, self.y = PLAYER_POS  # get from the map in the future
-        self.angle = PLAYER_ANGLE  # could get from the map in the future
+        # self.x, self.y = PLAYER_POS  # get from the map in the future
+        self.x, self.y = self.game.map.player_start
+        # self.angle = PLAYER_ANGLE  # could get from the map in the future
+        self.angle = self.game.map.player_start_angle
         self.rel = 0
 
     def movement(self):

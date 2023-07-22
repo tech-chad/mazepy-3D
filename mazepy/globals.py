@@ -7,8 +7,8 @@ HALF_WIDTH = WIDTH // 2
 HALF_HEIGHT = HEIGHT // 2
 FPS = 0  # might not need
 
-PLAYER_POS = 1.5, 5  # get from the map in the future
-PLAYER_ANGLE = 0  # could get from the map so player does start facing a wall
+# PLAYER_POS = 1.5, 5  # get from the map in the future
+# PLAYER_ANGLE = 1.5  # could get from the map so player does start facing a wall
 PLAYER_SPEED = 0.003  # originally 0.004
 PLAYER_ROT_SPEED = 0.002  # rotation speed
 PLAYER_SIZE_SCALE = 60
