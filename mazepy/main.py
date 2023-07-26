@@ -6,6 +6,7 @@ import maps
 import object_renderer
 import player
 import raycasting
+import splash
 
 from globals import *
 
@@ -21,6 +22,7 @@ class Game:
         self.player = None
         self.raycasting = None
         self.object_renderer = None
+        self.splash_screen = None
         self.new_game()
 
     def new_game(self):
@@ -29,6 +31,7 @@ class Game:
         self.object_renderer = object_renderer.ObjectRenderer(self)
         self.raycasting = raycasting.RayCasting(self)
         self.object_renderer = object_renderer.ObjectRenderer(self)
+        self.splash_screen = splash.Splash(self)
 
     def update(self):
         self.player.update()
@@ -54,6 +57,7 @@ class Game:
                 sys.exit()
 
     def run(self):
+        self.splash_screen.run()
         while True:
             self.check_events()
             self.update()
