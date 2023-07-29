@@ -3,6 +3,7 @@ import sys
 import pygame
 
 import maps
+import menu
 import object_renderer
 import player
 import raycasting
@@ -14,24 +15,27 @@ from globals import *
 class Game:
     def __init__(self):
         pygame.init()
-        pygame.mouse.set_visible(False)
+        # pygame.mouse.set_visible(False)
         self.screen = pygame.display.set_mode(RES)
         self.clock = pygame.time.Clock()
         self.delta_time = 1
-        self.map = None
+        self.map = maps.Map(self)
         self.player = None
         self.raycasting = None
         self.object_renderer = None
-        self.splash_screen = None
-        self.new_game()
+        self.splash_screen = splash.Splash(self)
+        self.map_select = menu.MapSelectMenu(self)
+        # self.new_game()
 
-    def new_game(self):
-        self.map = maps.Map(self)
+    def new_game(self, map_number):  # pass in map number
+        # self.map = maps.Map(self)
+        self.map.get_map(map_number)
         self.player = player.Player(self)
         self.object_renderer = object_renderer.ObjectRenderer(self)
         self.raycasting = raycasting.RayCasting(self)
         self.object_renderer = object_renderer.ObjectRenderer(self)
-        self.splash_screen = splash.Splash(self)
+        # self.splash_screen = splash.Splash(self)
+        # self.menu = menu.MapSelectMenu(self)
 
     def update(self):
         self.player.update()
@@ -58,6 +62,9 @@ class Game:
 
     def run(self):
         self.splash_screen.run()
+        map_number = self.map_select.run()
+        self.new_game(map_number)
+        pygame.mouse.set_visible(False)
         while True:
             self.check_events()
             self.update()
