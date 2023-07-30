@@ -15,7 +15,6 @@ from globals import *
 class Game:
     def __init__(self):
         pygame.init()
-        # pygame.mouse.set_visible(False)
         self.screen = pygame.display.set_mode(RES)
         self.clock = pygame.time.Clock()
         self.delta_time = 1
@@ -25,17 +24,14 @@ class Game:
         self.object_renderer = None
         self.splash_screen = splash.Splash(self)
         self.map_select = menu.MapSelectMenu(self)
-        # self.new_game()
+        self.completed = menu.Completed(self)
+        self.running = True
 
     def new_game(self, map_number):  # pass in map number
-        # self.map = maps.Map(self)
         self.map.get_map(map_number)
         self.player = player.Player(self)
         self.object_renderer = object_renderer.ObjectRenderer(self)
         self.raycasting = raycasting.RayCasting(self)
-        self.object_renderer = object_renderer.ObjectRenderer(self)
-        # self.splash_screen = splash.Splash(self)
-        # self.menu = menu.MapSelectMenu(self)
 
     def update(self):
         self.player.update()
@@ -62,13 +58,15 @@ class Game:
 
     def run(self):
         self.splash_screen.run()
-        map_number = self.map_select.run()
-        self.new_game(map_number)
-        pygame.mouse.set_visible(False)
         while True:
-            self.check_events()
-            self.update()
-            self.draw()
+            self.running = True
+            map_number = self.map_select.run()
+            self.new_game(map_number)
+            pygame.mouse.set_visible(False)
+            while self.running:
+                self.check_events()
+                self.update()
+                self.draw()
 
 
 def main():

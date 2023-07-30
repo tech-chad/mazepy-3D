@@ -1,6 +1,4 @@
 # import math
-import sys
-
 import pygame
 
 from globals import *
@@ -45,8 +43,9 @@ class Player:
         if (x, y) not in self.game.map.world_map:
             return True
         elif self.game.map.world_map[x, y] == 9:
-            pygame.quit()
-            sys.exit()
+            self.game.running = False
+            self.game.completed.run()
+
         else:
             return False
         # return (x, y) not in self.game.map.world_map

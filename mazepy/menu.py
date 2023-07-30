@@ -63,7 +63,52 @@ class MapSelectMenu:
         return button_list
 
     def run(self):
+        self.running = True
+        self.button_pressed = 0
+        pygame.mouse.set_visible(True)
         self.draw()
         while self.running:
             self.check_events()
         return self.button_pressed
+
+
+class Completed:
+    def __init__(self, game):
+        self.game = game
+        self.running = True
+        self.background = pygame.image.load("resources/textures/maze.png")
+        font_120 = pygame.font.SysFont("FreeSans", 120, bold=True)
+        font_30 = pygame.font.SysFont("FreeSans", 30)
+        self.title1 = font_120.render("Maze Completed!", True, (255, 30, 255))
+        self.title2 = font_120.render("Excellent!", True, (255, 30, 255))
+        self.msg = font_30.render("Press any key to continue", True, (240, 240, 240))
+
+    def check_events(self):
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+            elif event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
+                pygame.quit()
+                sys.exit()
+            elif event.type == pygame.MOUSEBUTTONDOWN:
+                self.running = False
+            elif event.type == pygame.KEYDOWN:
+                self.running = False
+
+    def draw(self):
+        self.game.screen.blit(self.background, (0, 0))
+        x = HALF_WIDTH - self.title1.get_width() // 2
+        self.game.screen.blit(self.title1, (x, 100))
+        x = HALF_WIDTH - self.title2.get_width() // 2
+        self.game.screen.blit(self.title2, (x, 300))
+        x = HALF_WIDTH - self.msg.get_width() // 2
+        self.game.screen.blit(self.msg, (x, HEIGHT - 100))
+        pygame.display.flip()
+
+    def run(self):
+        self.running = True
+        pygame.mouse.set_visible(True)
+        self.draw()
+        while self.running:
+            self.check_events()

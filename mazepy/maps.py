@@ -1,21 +1,6 @@
 import pygame
 
 import map_data
-# _ = False
-# map1 = {
-#     "mini_map": [
-#         [1, 8, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-#         [1, _, 1, _, _, _, 1, _, _, _, _, _, 1, _, _, 1],
-#         [1, _, 1, _, 1, 1, 1, _, 1, _, 1, _, _, _, 1, 1],
-#         [1, _, 1, _, _, _, _, _, 1, 1, 1, 1, 1, _, 1, 1],
-#         [1, _, 1, _, 1, _, 1, _, 1, _, _, _, 1, _, _, 1],
-#         [1, _, _, _, 1, _, 1, _, _, _, 1, _, 1, 1, _, 1],
-#         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9, 1],
-#     ],
-#     "start": (1.5, 1.5),
-#     "angle": 1.5
-#
-# }
 
 
 class Map:
@@ -29,6 +14,7 @@ class Map:
         # self.get_map()
 
     def get_map(self, number):
+        self.world_map = {}
         single_map = map_data.maps[number]
         self.mini_map = single_map["mini_map"]
         self.player_start = single_map["start"]
