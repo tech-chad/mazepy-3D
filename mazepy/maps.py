@@ -9,6 +9,9 @@ class Map:
         self.mini_map = None
         self.player_start = None
         self.player_start_angle = None
+        self.sky = None
+        self.floor_type = None
+        self.floor = None
         self.world_map = {}
         self.number_of_maps = len(map_data.maps)
         # self.get_map()
@@ -19,6 +22,8 @@ class Map:
         self.mini_map = single_map["mini_map"]
         self.player_start = single_map["start"]
         self.player_start_angle = single_map["angle"]
+        self.sky = single_map["sky"]
+        self.floor = single_map["floor"]
         for j, row in enumerate(self.mini_map):
             for i, value in enumerate(row):
                 if value:

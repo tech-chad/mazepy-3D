@@ -10,8 +10,10 @@ class ObjectRenderer:
         self.wall_textures = self.load_wall_textures()
         # self.sky_image = self.get_texture("resources/textures/sky.png",
         #                                   (WIDTH, HALF_HEIGHT))
-        self.celling_image = self.get_texture("resources/textures/sky1.png",
+        image_path = f"resources/textures/{self.game.map.sky}"
+        self.celling_image = self.get_texture(image_path,
                                               (WIDTH, HALF_HEIGHT))
+        self.floor_color = self.game.map.floor
         # self.background_image1 = self.get_texture("resources/textures/background1.png",
         # (WIDTH, HALF_HEIGHT))
         self.sky_offset = 0
@@ -38,7 +40,7 @@ class ObjectRenderer:
         # self.screen.blit(self.background_image1, (-self.background_image1_offset +
         #                                           settings.WIDTH, 0))
         # floor
-        pygame.draw.rect(self.screen, FLOOR_COLOR, (0, HALF_HEIGHT, WIDTH, HEIGHT))
+        pygame.draw.rect(self.screen, self.floor_color, (0, HALF_HEIGHT, WIDTH, HEIGHT))
 
     def render_game_objects(self):
         list_objects = sorted(self.game.raycasting.objects_to_render,
