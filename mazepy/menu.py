@@ -57,7 +57,7 @@ class MapSelectMenu:
             button_list.append(pygame.rect.Rect((x, y, 100, 100)))
             if i % 10 == 0:
                 x = 210
-                y += 200
+                y += 120
             else:
                 x += 120
         return button_list
