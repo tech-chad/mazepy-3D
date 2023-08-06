@@ -13,7 +13,7 @@ class Map:
         self.floor_type = None
         self.floor = None
         self.world_map = {}
-        self.number_of_maps = len(map_data.maps)
+        self.number_of_maps = len(map_data.maps) + 1
         # self.get_map()
 
     def get_map(self, number):
