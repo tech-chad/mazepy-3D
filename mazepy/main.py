@@ -26,6 +26,8 @@ class Game:
         self.map_select = menu.MapSelectMenu(self)
         self.completed = menu.Completed(self)
         self.quit_confirm = menu.ConfirmBox(self, msg="Quit the map?")
+        self.rest_confirm = menu.ConfirmBox(self, msg="Reset to start?")
+        self.map_number = 0
         self.running = True
 
     def new_game(self, map_number):  # pass in map number
@@ -56,13 +58,16 @@ class Game:
             if event.type == pygame.KEYDOWN and event.key == pygame.K_q:
                 if self.quit_confirm.run():
                     self.running = False
+            if event.type == pygame.KEYDOWN and event.key == pygame.K_r:
+                if self.rest_confirm.run():
+                    self.new_game(self.map_number)
 
     def run(self):
         self.splash_screen.run()
         while True:
             self.running = True
-            map_number = self.map_select.run()
-            self.new_game(map_number)
+            self.map_number = self.map_select.run()
+            self.new_game(self.map_number)
             pygame.mouse.set_visible(False)
             while self.running:
                 self.check_events()
