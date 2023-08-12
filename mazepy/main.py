@@ -25,6 +25,7 @@ class Game:
         self.splash_screen = splash.Splash(self)
         self.map_select = menu.MapSelectMenu(self)
         self.completed = menu.Completed(self)
+        self.quit_confirm = menu.ConfirmBox(self, msg="Quit the map?")
         self.running = True
 
     def new_game(self, map_number):  # pass in map number
@@ -50,9 +51,11 @@ class Game:
                 pygame.quit()
                 sys.exit()
             if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
+                self.quit_confirm.run()
                 self.running = False
             if event.type == pygame.KEYDOWN and event.key == pygame.K_q:
-                self.running = False
+                if self.quit_confirm.run():
+                    self.running = False
 
     def run(self):
         self.splash_screen.run()
