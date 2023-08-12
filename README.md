@@ -7,12 +7,13 @@ First person pseudo 3D maze. The goal is to navigate the maze to find the exit. 
 I use raycasting technique like the one used in Wolfenstein Doom. Thanks to Coder Space youtube channel for the tutorial 
 on this engine. Youtube video: https://www.youtube.com/watch?v=ECqUrT7IdqQ. 
 
-* Number of mazes: 10
+* Number of mazes: 100
 
 #### Controls while playing
 * ```w,a,s,d``` to move
 * ```mouse``` to change directions
 * ```q``` or escape to quit back to the map select screen
+* ```r``` restart the map
 
 ### Screenshot
 ![maze-screenshot-1](https://i.fluffy.cc/6D3hgBk9c32sjjhTZmKQQFpzMR3Nhr0Q.png)
