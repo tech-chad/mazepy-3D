@@ -53,8 +53,8 @@ class Game:
                 pygame.quit()
                 sys.exit()
             if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
-                self.quit_confirm.run()
-                self.running = False
+                if self.quit_confirm.run():
+                    self.running = False
             if event.type == pygame.KEYDOWN and event.key == pygame.K_q:
                 if self.quit_confirm.run():
                     self.running = False
