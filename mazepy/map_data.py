@@ -16,7 +16,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.5,
         "floor": (30, 30, 30),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 2
         "mini_map": [
@@ -31,7 +32,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.5,
         "floor": (30, 30, 30),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 3
         "mini_map": [
@@ -46,7 +48,8 @@ maps = [
         "start": (1.5, 5.5),
         "angle": -1.5,
         "floor": (30, 30, 30),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 4
         "mini_map": [
@@ -63,7 +66,8 @@ maps = [
         "start": (1.5, 7.5),
         "angle": -1.5,
         "floor": (30, 30, 30),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 5
         "mini_map": [
@@ -80,7 +84,8 @@ maps = [
         "start": (7.5, 7.5),
         "angle": -3.0,
         "floor": (30, 30, 30),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 6
         "mini_map": [
@@ -99,7 +104,8 @@ maps = [
         "start": (7.5, 9.5),
         "angle": -3.0,
         "floor": (30, 30, 30),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 7
         "mini_map": [
@@ -116,7 +122,8 @@ maps = [
         "start": (1.5, 7.5),
         "angle": -1.5,
         "floor": (30, 30, 30),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 8
         "mini_map": [
@@ -136,7 +143,8 @@ maps = [
         "start": (7.5, 10.5),
         "angle": -3.0,
         "floor": (30, 30, 30),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 9
         "mini_map": [
@@ -153,7 +161,8 @@ maps = [
         "start": (7.5, 7.5),
         "angle": -3.0,
         "floor": (30, 30, 30),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 10
         "mini_map": [
@@ -172,7 +181,8 @@ maps = [
         "start": (7.5, 9.5),
         "angle": -3.0,
         "floor": (30, 30, 30),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 11
         "mini_map": [
@@ -191,7 +201,8 @@ maps = [
         "start": (1.5, 5.5),
         "angle": -1.0,
         "floor": (50, 40, 0),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 12
         "mini_map": [
@@ -209,7 +220,8 @@ maps = [
         "start": (1.5, 3.5),
         "angle": -1.0,
         "floor": (20, 20, 20),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 13
         "mini_map": [
@@ -230,7 +242,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (20, 20, 20),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 14
         "mini_map": [
@@ -251,7 +264,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (20, 20, 20),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 15
         "mini_map": [
@@ -267,7 +281,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (20, 20, 20),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 16
         "mini_map": [
@@ -284,7 +299,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (20, 20, 20),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 17
         "mini_map": [
@@ -301,7 +317,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (20, 20, 20),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 18
         "mini_map": [
@@ -318,7 +335,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (20, 20, 20),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 19
         "mini_map": [
@@ -335,7 +353,8 @@ maps = [
         "start": (3.5, 1.5),
         "angle": 1.0,
         "floor": (20, 20, 20),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 20
         "mini_map": [
@@ -354,7 +373,8 @@ maps = [
         "start": (1.5, 9.5),
         "angle": 1.0,
         "floor": (40, 40, 20),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 21
         "mini_map": [
@@ -373,7 +393,8 @@ maps = [
         "start": (2.5, 7.5),
         "angle": 1.0,
         "floor": (40, 40, 20),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 22
         "mini_map": [
@@ -392,7 +413,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (40, 40, 20),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 23
         "mini_map": [
@@ -411,7 +433,8 @@ maps = [
         "start": (1.5, 4.5),
         "angle": 1.0,
         "floor": (40, 40, 20),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 24
         "mini_map": [
@@ -430,7 +453,8 @@ maps = [
         "start": (7.5, 6.5),
         "angle": 1.0,
         "floor": (40, 40, 20),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 25
         "mini_map": [
@@ -449,7 +473,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (40, 40, 20),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 26
         "mini_map": [
@@ -470,7 +495,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (30, 30, 25),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 27
         "mini_map": [
@@ -491,7 +517,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (40, 40, 20),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 28
         "mini_map": [
@@ -512,7 +539,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (40, 40, 20),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 29
         "mini_map": [
@@ -533,7 +561,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (40, 40, 20),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 30
         "mini_map": [
@@ -554,7 +583,8 @@ maps = [
         "start": (1.5, 11.5),
         "angle": 1.0,
         "floor": (40, 40, 20),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 31
         "mini_map": [
@@ -575,7 +605,8 @@ maps = [
         "start": (1.5, 4.5),
         "angle": 1.0,
         "floor": (40, 40, 20),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 32
         "mini_map": [
@@ -596,7 +627,8 @@ maps = [
         "start": (1.5, 6.5),
         "angle": 1.0,
         "floor": (40, 40, 20),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 33
         "mini_map": [
@@ -617,7 +649,8 @@ maps = [
         "start": (2.5, 3.5),
         "angle": -1.0,
         "floor": (45, 45, 45),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 34
         "mini_map": [
@@ -638,7 +671,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (45, 45, 45),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 35
         "mini_map": [
@@ -661,7 +695,8 @@ maps = [
         "start": (1.5, 13.5),
         "angle": -1.0,
         "floor": (20, 20, 20),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 36
         "mini_map": [
@@ -682,7 +717,8 @@ maps = [
         "start": (11.5, 1.5),
         "angle": -2.0,
         "floor": (45, 45, 45),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 37
         "mini_map": [
@@ -703,7 +739,8 @@ maps = [
         "start": (7.5, 5.5),
         "angle": 1.0,
         "floor": (45, 45, 45),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 38
         "mini_map": [
@@ -724,7 +761,8 @@ maps = [
         "start": (11.5, 7.5),
         "angle": 1.0,
         "floor": (45, 45, 10),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "0"
     },
     {  # 39
         "mini_map": [
@@ -745,7 +783,8 @@ maps = [
         "start": (5.5, 11.5),
         "angle": 1.0,
         "floor": (45, 45, 45),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "0"
     },
     {  # 40
         "mini_map": [
@@ -767,7 +806,8 @@ maps = [
         "start": (7.5, 1.5),
         "angle": 1.0,
         "floor": (60, 60, 60),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 41
         "mini_map": [
@@ -790,7 +830,8 @@ maps = [
         "start": (13.5, 1.5),
         "angle": 1.0,
         "floor": (20, 20, 20),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 42
         "mini_map": [
@@ -813,7 +854,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (60, 60, 60),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 43
         "mini_map": [
@@ -836,7 +878,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (60, 60, 60),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 44
         "mini_map": [
@@ -861,7 +904,8 @@ maps = [
         "start": (6.5, 1.5),
         "angle": 1.0,
         "floor": (60, 60, 60),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 45
         "mini_map": [
@@ -884,7 +928,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (40, 40, 40),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 46
         "mini_map": [
@@ -907,7 +952,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (60, 60, 60),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 47
         "mini_map": [
@@ -930,7 +976,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (30, 30, 30),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 48
         "mini_map": [
@@ -954,7 +1001,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (60, 60, 60),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 49
         "mini_map": [
@@ -977,7 +1025,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (60, 60, 60),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 50
         "mini_map": [
@@ -1004,7 +1053,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (15, 15, 1),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 51
         "mini_map": [
@@ -1031,7 +1081,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (15, 15, 15),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 52
         "mini_map": [
@@ -1056,7 +1107,8 @@ maps = [
         "start": (1.5, 15.5),
         "angle": -1.0,
         "floor": (15, 15, 15),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 53
         "mini_map": [
@@ -1083,7 +1135,8 @@ maps = [
         "start": (1.5, 11.5),
         "angle": -1.0,
         "floor": (35, 45, 10),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "2"
     },
     {  # 54
         "mini_map": [
@@ -1110,7 +1163,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (15, 15, 15),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 55
         "mini_map": [
@@ -1137,7 +1191,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (40, 40, 40),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 56
         "mini_map": [
@@ -1164,7 +1219,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (15, 15, 15),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 57
         "mini_map": [
@@ -1181,7 +1237,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (15, 45, 20),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 58
         "mini_map": [
@@ -1208,7 +1265,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (30, 30, 15),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 59
         "mini_map": [
@@ -1235,7 +1293,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (30, 30, 15),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 60
         "mini_map": [
@@ -1266,7 +1325,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (35, 35, 35),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 61
         "mini_map": [
@@ -1295,7 +1355,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (30, 30, 30),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 62
         "mini_map": [
@@ -1324,7 +1385,8 @@ maps = [
         "start": (11.5, 19.5),
         "angle": 1.0,
         "floor": (60, 60, 60),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 63
         "mini_map": [
@@ -1350,7 +1412,8 @@ maps = [
         "start": (11.5, 16.5),
         "angle": 1.0,
         "floor": (60, 60, 60),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 64
         "mini_map": [
@@ -1379,7 +1442,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (60, 60, 60),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 65
         "mini_map": [
@@ -1408,7 +1472,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (60, 60, 60),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 66
         "mini_map": [
@@ -1437,7 +1502,8 @@ maps = [
         "start": (19.5, 19.5),
         "angle": -1.5,
         "floor": (65, 65, 65),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 67
         "mini_map": [
@@ -1466,7 +1532,8 @@ maps = [
         "start": (4.5, 19.5),
         "angle": 2.5,
         "floor": (65, 65, 65),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 68
         "mini_map": [
@@ -1494,7 +1561,8 @@ maps = [
         "start": (8.5, 1.5),
         "angle": 1.0,
         "floor": (65, 65, 65),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 69
         "mini_map": [
@@ -1527,7 +1595,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (15, 15, 15),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 70
         "mini_map": [
@@ -1559,7 +1628,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (65, 65, 65),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 71
         "mini_map": [
@@ -1588,7 +1658,8 @@ maps = [
         "start": (2.5, 19.5),
         "angle": -2.0,
         "floor": (40, 40, 20),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 72
         "mini_map": [
@@ -1619,7 +1690,8 @@ maps = [
         "start": (21.5, 1.5),
         "angle": -1.5,
         "floor": (45, 45, 45),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 73
         "mini_map": [
@@ -1662,7 +1734,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (40, 40, 40),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 74
         "mini_map": [
@@ -1691,7 +1764,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (15, 15, 15),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 75
         "mini_map": [
@@ -1720,7 +1794,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (15, 15, 15),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 76
         "mini_map": [
@@ -1751,7 +1826,8 @@ maps = [
         "start": (21.5, 21.5),
         "angle": -1.0,
         "floor": (40, 40, 40),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 77
         "mini_map": [
@@ -1781,7 +1857,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (40, 40, 40),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 78
         "mini_map": [
@@ -1812,7 +1889,8 @@ maps = [
         "start": (20.5, 21.5),
         "angle": 1.0,
         "floor": (45, 45, 30),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 79
         "mini_map": [
@@ -1843,7 +1921,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (45, 45, 30),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 80
         "mini_map": [
@@ -1882,7 +1961,8 @@ maps = [
         "start": (1.5, 4.5),
         "angle": 1.0,
         "floor": (15, 15, 15),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "2"
     },
     {  # 81
         "mini_map": [
@@ -1901,7 +1981,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (45, 45, 30),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "2"
     },
     {  # 82
         "mini_map": [
@@ -1940,7 +2021,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": -1.0,
         "floor": random.choice([(45, 45, 30), (50, 50, 50)]),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 83
         "mini_map": [
@@ -1979,7 +2061,8 @@ maps = [
         "start": (4.5, 29.5),
         "angle": 1.0,
         "floor": (45, 45, 30),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 84
         "mini_map": [
@@ -2016,7 +2099,8 @@ maps = [
         "start": (18.5, 1.5),
         "angle": 1.0,
         "floor": (50, 50, 50),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 85
         "mini_map": [
@@ -2053,7 +2137,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (30, 30, 15),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "2"
     },
     {  # 86
         "mini_map": [
@@ -2090,7 +2175,8 @@ maps = [
         "start": (26.5, 27.5),
         "angle": 1.0,
         "floor": (30, 30, 15),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "3"
     },
     {  # 87
         "mini_map": [
@@ -2111,7 +2197,8 @@ maps = [
         "start": (4.5, 1.5),
         "angle": 1.0,
         "floor": (30, 30, 15),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "0"
     },
     {  # 88
         "mini_map": [
@@ -2152,7 +2239,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (30, 30, 15),
-        "sky": "sky1.png"
+        "sky": "sky1.png",
+        "music": "1"
     },
     {  # 89
         "mini_map": [
@@ -2180,7 +2268,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (30, 30, 30),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "0"
     },
     {  # 90
         "mini_map": [
@@ -2223,7 +2312,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (30, 30, 15),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "1"
     },
     {  # 91
         "mini_map": [
@@ -2264,7 +2354,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (30, 30, 15),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "2"
     },
     {  # 92
         "mini_map": [
@@ -2305,7 +2396,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (35, 35, 25),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "3"
     },
     {  # 93
         "mini_map": [
@@ -2348,7 +2440,8 @@ maps = [
         "start": (33.5, 33.5),
         "angle": 1.0,
         "floor": (30, 30, 15),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "3"
     },
     {  # 94
         "mini_map": [
@@ -2391,7 +2484,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (40, 40, 40),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "3"
     },
     {  # 95
         "mini_map": [
@@ -2436,7 +2530,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (40, 40, 40),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "3"
     },
     {  # 96
         "mini_map": [
@@ -2483,7 +2578,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (40, 40, 40),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "3"
     },
     {  # 97
         "mini_map": [
@@ -2530,7 +2626,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (40, 40, 40),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "3"
     },
     {  # 98
         "mini_map": [
@@ -2577,7 +2674,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (40, 40, 40),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "3"
     },
     {  # 99
         "mini_map": [
@@ -2624,7 +2722,8 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (40, 40, 40),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "3"
     },
     {  # 100
         "mini_map": [
@@ -2680,6 +2779,7 @@ maps = [
         "start": (1.5, 1.5),
         "angle": 1.0,
         "floor": (45, 45, 45),
-        "sky": "sky2.jpg"
+        "sky": "sky2.jpg",
+        "music": "3"
     },
 ]

@@ -7,6 +7,7 @@ import menu
 import object_renderer
 import player
 import raycasting
+import sound
 import splash
 
 from globals import *
@@ -27,6 +28,7 @@ class Game:
         self.completed = menu.Completed(self)
         self.quit_confirm = menu.ConfirmBox(self, msg="Quit the map?")
         self.rest_confirm = menu.ConfirmBox(self, msg="Reset to start?")
+        self.sound = sound.Sound()
         self.map_number = 0
         self.running = True
 
@@ -61,6 +63,8 @@ class Game:
             if event.type == pygame.KEYDOWN and event.key == pygame.K_r:
                 if self.rest_confirm.run():
                     self.new_game(self.map_number)
+            if event.type == pygame.KEYDOWN and event.key == pygame.K_m:
+                self.sound.toggle_mute()
 
     def run(self):
         self.splash_screen.run()
@@ -69,10 +73,12 @@ class Game:
             self.map_number = self.map_select.run()
             self.new_game(self.map_number)
             pygame.mouse.set_visible(False)
+            self.sound.play_level_music(int(self.map.music))
             while self.running:
                 self.check_events()
                 self.update()
                 self.draw()
+            # self.sound.level_music[self.map.music].fadeout(1000)
 
 
 def main():

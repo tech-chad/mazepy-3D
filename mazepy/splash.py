@@ -34,6 +34,8 @@ class Splash:
         pygame.display.flip()
 
     def run(self):
+        self.game.sound.play_theme_music()
         self.draw()
+        pygame.time.delay(500)
         while self.running:
             self.check_events()

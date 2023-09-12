@@ -47,6 +47,8 @@ class MapSelectMenu:
                     if self.page > 0:
                         self.page -= 1
                         return None
+            if event.type == pygame.KEYDOWN and event.key == pygame.K_m:
+                self.game.sound.toggle_mute()
 
     def draw(self):
         self.game.screen.blit(self.background, (0, 0))
@@ -96,6 +98,7 @@ class MapSelectMenu:
         return button_list
 
     def run(self):
+        self.game.sound.play_theme_music()
         self.running = True
         self.button_pressed = 0
         pygame.mouse.set_visible(True)
@@ -140,6 +143,7 @@ class Completed:
         pygame.display.flip()
 
     def run(self):
+        self.game.sound.play_winner_music()
         self.running = True
         pygame.mouse.set_visible(True)
         self.draw()
@@ -207,4 +211,3 @@ class ConfirmBox:
             self.check_for_events()
         pygame.mouse.set_visible(False)
         return self.result
-

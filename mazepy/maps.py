@@ -12,6 +12,7 @@ class Map:
         self.sky = None
         self.floor_type = None
         self.floor = None
+        self.music = None
         self.world_map = {}
         self.number_of_maps = len(map_data.maps) + 1
         # self.get_map()
@@ -24,6 +25,7 @@ class Map:
         self.player_start_angle = single_map["angle"]
         self.sky = single_map["sky"]
         self.floor = single_map["floor"]
+        self.music = single_map["music"]
         for j, row in enumerate(self.mini_map):
             for i, value in enumerate(row):
                 if value:
