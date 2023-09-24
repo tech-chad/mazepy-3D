@@ -11,7 +11,7 @@ class Sound:
         self.winner_theme = pygame.mixer.Sound(path + "winning.mp3")
         self.winner_theme.set_volume(0.3)
         self.level_music = {}
-        for x in range(4):
+        for x in range(5):
             t = pygame.mixer.Sound(path + f"Level{x}.mp3")
             t.set_volume(0.2)
             self.level_music[x] = t
