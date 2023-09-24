@@ -37,8 +37,9 @@ class MapSelectMenu:
                 for i, button in enumerate(self.button_list):
                     if button.collidepoint(mouse_x, mouse_y):
                         self.button_pressed = i + self.page * 50
-                        self.running = False
-                        return None
+                        if self.button_pressed < self.game.map.number_of_maps - 1:
+                            self.running = False
+                            return None
                 if self.next_button.collidepoint(mouse_x, mouse_y):
                     if self.page < self.number_of_pages:
                         self.page += 1
