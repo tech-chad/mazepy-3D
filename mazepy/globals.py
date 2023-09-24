@@ -20,6 +20,7 @@ MOUSE_BOARDER_LEFT = 100
 MOUSE_BOARDER_RIGHT = WIDTH - MOUSE_BOARDER_LEFT
 
 FLOOR_COLOR = (30, 30, 30)  # get from the map in the future
+MAP_DATA_FILENAME = "resources/map-data"
 
 # ray casting
 FOV = math.pi / 3
