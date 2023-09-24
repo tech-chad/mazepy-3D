@@ -1,6 +1,6 @@
 import math
 
-VERSION = "0.3.0"
+VERSION = "0.4.0"
 
 # game
 RES = WIDTH, HEIGHT = 1600, 900
